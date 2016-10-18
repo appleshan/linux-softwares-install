@@ -1,0 +1,7 @@
+#!/bin/bash
+# Easily view, navigate, search and use your command history with shell history suggest box for Bash and Zsh.
+sudo add-apt-repository -y ppa:ultradvorka/ppa
+sudo apt-get update
+sudo apt-get install hh --allow-unauthenticated -y
+
+hh --show-configuration >> ~/.bashrc

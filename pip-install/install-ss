@@ -1,0 +1,4 @@
+#!/bin/bash
+# http://shadowsocks.org/en/download/clients.html
+# install python shadowsocks
+sudo pip install shadowsocks

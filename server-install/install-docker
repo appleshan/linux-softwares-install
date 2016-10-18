@@ -1,0 +1,3 @@
+#!/bin/bash
+# install docker : https://docs.docker.com
+curl -fsSL https://get.docker.com/ | sh

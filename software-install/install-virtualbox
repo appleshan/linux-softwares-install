@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo apt-get install virtualbox virtualbox-guest-additions-iso --allow-unauthenticated -y

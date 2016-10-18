@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo add-apt-repository ppa:fcitx-team/nightly
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install -y -q  fcitx
+sudo apt-get install -y -q  fcitx-googlepinyin
+# sudo apt-get install -y -q  fcitx-sunpinyin
+sudo apt-get install -y -q  im-switch
+sudo im-switch -s fcitx
+
+# killall ibus-daemon
+# sudo apt-get autoremove ibus ibus-sunpinyin
+
+fcitx -r --enable fcitx-qimpanel
+fcitx-qimpanel

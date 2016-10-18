@@ -1,0 +1,1 @@
+my software install script for ubuntu

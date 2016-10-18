@@ -1,0 +1,8 @@
+#!/bin/bash
+# website : https://www.ruby-lang.org/en
+sudo apt-get install -y -q  ruby1.9.3
+sudo apt-get install -y -q  rubygems
+sudo gem update --system
+
+# website : http://compass-style.org
+sudo gem install compass

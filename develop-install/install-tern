@@ -1,0 +1,5 @@
+#!/bin/bash
+# https://github.com/marijnh/tern.git
+git clone https://github.com/marijnh/tern.git ~/source-install/tern
+cd ~/source-install/tern
+npm install

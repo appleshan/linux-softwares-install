@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo add-apt-repository -y ppa:t-tujikawa/ppa
+sudo apt-get update
+sudo apt-get install aria2 --allow-unauthenticated -y

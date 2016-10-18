@@ -1,0 +1,11 @@
+#!/bin/bash
+#: Title                  : install-ag
+#: Date                   : 2015-02-08 13:35:55
+#: Author                 : appleshan
+#: version                : 1.0
+#: Description            : install ag
+#: Source                 : https://github.com/ggreer/the_silver_searcher
+
+sudo add-apt-repository -y ppa:jonathonf/backports
+sudo apt-get update
+sudo apt-get install -y -q silversearcher-ag
