@@ -1,3 +1,10 @@
 #!/bin/bash
+
+# proxychains-ng
 # http://stackoverflow.com/questions/19699294/make-emacs-access-to-https-over-socks-proxy/21371339#21371339
-sudo apt-get install -y -q  proxychains
+# sudo apt-get install -y -q  proxychains
+
+git clone https://github.com/rofl0r/proxychains-ng.git
+./configure --prefix=/usr --sysconfdir=~/.proxychains
+make
+sudo make install
