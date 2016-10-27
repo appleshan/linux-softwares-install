@@ -1,7 +1,6 @@
 #!/bin/bash
 # emacs25 - http://www.gnu.org/software/emacs
 # ppa = ppa:adrozdoff/emacs ; 稳定版本. https://launchpad.net/~adrozdoff/+archive/ubuntu/emacs
-# ppa = ppa:ubuntu-elisp/ppa ; 更新的源，官方每天更新. https://launchpad.net/~ubuntu-elisp/+archive/ubuntu/ppa
 
 sudo add-apt-repository -y ppa:adrozdoff/emacs
 sudo apt-get update
