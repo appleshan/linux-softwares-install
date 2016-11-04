@@ -3,4 +3,4 @@
 
 sudo add-apt-repository -y ppa:remmina-ppa-team/remmina-next
 sudo apt-get update
-sudo apt-get install remmina remmina-plugin-rdp libfreerdp-plugins-standard --allow-unauthenticated -y
+sudo apt-get install remmina remmina-common remmina-plugin-rdp remmina-plugin-vnc --allow-unauthenticated -y

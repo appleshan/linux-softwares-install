@@ -6,5 +6,5 @@
 
 git clone https://github.com/rofl0r/proxychains-ng.git
 ./configure --prefix=/usr --sysconfdir=~/.proxychains
-make
+make -j4
 sudo make install
