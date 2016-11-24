@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # fake keyboard/mouse input, window management, and more
 # https://github.com/jordansissel/xdotool

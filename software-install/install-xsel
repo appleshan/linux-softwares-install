@@ -1,3 +1,15 @@
 #!/bin/bash
 # copy commandline content to clipborad
 sudo apt-get install -y xsel
+
+# example:
+
+# copy into primary selection
+# some command | xsel
+
+# read primary selection
+# xsel
+
+# set the X clipboard
+# some command | xsel -b
+# xsel -b
