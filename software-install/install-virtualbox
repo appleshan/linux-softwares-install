@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt-get install virtualbox-5.1 virtualbox-guest-additions-iso -y
+sudo aptitude install virtualbox-5.1 virtualbox-guest-additions-iso -y

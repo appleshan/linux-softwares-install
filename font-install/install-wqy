@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo aptitude install fonts-wqy-zenhei fonts-wqy-microhei
+

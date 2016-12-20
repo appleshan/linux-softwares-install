@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install graphviz
+sudo aptitude install graphviz
 
 # testing:
 # java -jar plantuml.jar -testdot

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo proxychains4 apt install thunderbird
+sudo aptitude install thunderbird
