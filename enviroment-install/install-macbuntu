@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Ubuntu 下安装MacBuntu 变身Mac OS X主题风格
+
+sudo add-apt-repository ppa:noobslab/macbuntu
+sudo apt-get update
+sudo aptitude install macbuntu-os-icons-lts-v8 macbuntu-os-ithemes-lts-v8 macbuntu-os-plank-theme-lts-v8

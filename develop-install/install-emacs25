@@ -1,6 +1,7 @@
 #!/bin/bash
+
 # emacs25 - http://www.gnu.org/software/emacs
-# ppa = ppa:adrozdoff/emacs ; 稳定版本. https://launchpad.net/~adrozdoff/+archive/ubuntu/emacs
+# 稳定版本. https://launchpad.net/~adrozdoff/+archive/ubuntu/emacs
 
 sudo add-apt-repository -y ppa:adrozdoff/emacs
 sudo apt-get update

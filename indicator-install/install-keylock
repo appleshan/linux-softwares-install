@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # 大小写指示器﻿﻿
 
 sudo add-apt-repository -y ppa:tsbarnes/indicator-keylock

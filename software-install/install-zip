@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # zip and unzip
 # rank : basic
-sudo apt-get install -y -q zip
+sudo apt-get install -y -q zip p7zip-full

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Network speed indicator for Unity
 
 sudo add-apt-repository -y ppa:fixnix/netspeed

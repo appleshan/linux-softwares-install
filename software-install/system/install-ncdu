@@ -1,3 +1,4 @@
 #!/bin/bash
+
 # a better du
 sudo aptitude install -y -q ncdu

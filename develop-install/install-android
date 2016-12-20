@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# install android sdk
+cd ~
+mkdir tools
+cd tools
+wget https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
+tar -zxvf android-sdk_r24.4.1-linux.tgz

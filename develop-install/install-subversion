@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install subversion --allow-unauthenticated -y
+sudo aptitude install subversion --allow-unauthenticated -y
