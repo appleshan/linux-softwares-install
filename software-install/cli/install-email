@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# 使用Gmail+Mutt+Msmtp+Offlineimap
+# mutt : 管理邮件
+# offlineimap : 收IMAP邮件
+# msmtp : 发邮件
+# w3m : 显示html邮件
+
+sudo aptitude install mutt msmtp offlineimap w3m
