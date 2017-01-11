@@ -7,3 +7,14 @@
 # w3m : 显示html邮件
 
 sudo aptitude install mutt msmtp offlineimap w3m
+
+##其他注意事项##
+# 我在公司的服务器上配置mutt ，遇到的错误是：
+#
+# No authenticators available
+# Could not send the message.
+#
+# 解决方法是安装一个叫libsas12-modules 的库。
+#
+# sudo aptitude install libsas12-modules
+#
