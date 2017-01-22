@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+sudo pip install rope        # a python refactoring library
+sudo pip install jedi        # Python自动补全库
+sudo pip install flake8      # flake8 用来检查语法错误
+sudo pip install importmagic # importmagic 用来自动引入需要的包
+sudo pip install autopep8    # autopep8 用来检查PEP8规范
+sudo pip install yapf        # yapf 用来格式化代码
