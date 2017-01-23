@@ -5,10 +5,14 @@ curl -fsSL https://get.docker.com/ | sh
 # Verify that docker is installed correctly by running the hello-world image.
 sudo docker run hello-world
 
-# To create the docker group and add your user:
-
-# Create the docker group.
+# 建立 docker 用户组
 sudo groupadd docker
 
-# Add your user to the docker group.
+# 将当前用户加入 docker 组
 sudo usermod -aG docker $USER
+
+# 镜像加速器
+# DaoCloud 加速器: https://www.daocloud.io/mirror#accelerator-doc
+# 注册用户并且申请加速器，会获得如 https://jxus37ad.mirror.aliyuncs.com 这样的
+# 地址。我们需要将其配置给 Docker 引擎。
+# Docker 加速器配置文档：http://guide.daocloud.io/dcs/daocloud-9153151.html
