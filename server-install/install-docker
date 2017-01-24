@@ -1,15 +1,35 @@
 #!/bin/bash
+
+## 安装docker
+
+# 安装最新版本的docker
 # install docker : https://docs.docker.com
 curl -fsSL https://get.docker.com/ | sh
+# or
+# wget -qO- https://get.docker.com/ | sh
 
-# Verify that docker is installed correctly by running the hello-world image.
+# 查看版本
+doceker vresion
+
+# 运行测试
 sudo docker run hello-world
+
+## 去除掉sudo
+# 在Ubuntu下，在执行Docker时，每次都要输入sudo，同时输入密码，
+# 这里微调一下，把当前用户执行权限添加到相应的docker用户组里面。
 
 # 建立 docker 用户组
 sudo groupadd docker
 
 # 将当前用户加入 docker 组
 sudo usermod -aG docker $USER
+
+# 重启Docker后台监护进程
+sudo service docker restart
+# 重启之后，尝试一下，是否生效
+docker version
+#若还未生效，则系统重启，则生效
+sudo reboot
 
 # 镜像加速器
 # DaoCloud 加速器: https://www.daocloud.io/mirror#accelerator-doc
