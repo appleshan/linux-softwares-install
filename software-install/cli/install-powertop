@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Debian, Ubuntu
+sudo aptitude install powertop
+
+# CentOS, RHEL, Fedora
+sudo yum install powertop
+
+# Arch Linux
+sudo pacman -S powertop

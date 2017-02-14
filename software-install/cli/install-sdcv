@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# 文字界面的字典
+
+## 安裝 sdcv
+# Debian, Ubuntu.
+sudo aptitude install sdcv
+
+
+## 下載字典檔
+# 星際譯王詞庫: http://abloz.com/huzheng/stardict-dic/zh_TW/
+# 朗道英漢字典
+wget http://abloz.com/huzheng/stardict-dic/zh_TW/stardict-langdao-ec-big5-2.4.2.tar.bz2
+
+# 朗道漢英字典
+wget http://abloz.com/huzheng/stardict-dic/zh_TW/stardict-langdao-ce-big5-2.4.2.tar.bz2
+
+
+## 安裝字典檔。
+# 於家目錄底下建立字典檔目錄。
+$ mkdir -p $HOME/.stardict/dic
+
+# 將字典檔解壓縮至 $HOME/.stardict/dic。
+$ tar jxvf /dev/shm/stardict-langdao-ce-big5-2.4.2.tar.bz2 -C $HOME/.stardict/dic
+
+$ tar jxvf /dev/shm/stardict-langdao-ec-big5-2.4.2.tar.bz2 -C $HOME/.stardict/dic
+
+
+## 列出有效的字典
+sdcv -l
+# Dictionary's name   Word count
+# 朗道漢英字典5.0    395426
+# 朗道英漢字典5.0    423246

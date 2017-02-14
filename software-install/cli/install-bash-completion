@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Debian, Ubuntu
+sudo aptitude install bash-completion
